@@ -14,6 +14,7 @@ section{
   background-color: grey;
   float: left;
   margin-right: 10px;
+  height: 200px;
 }
 h2{
   width: 120px;
@@ -27,6 +28,7 @@ p{
   height: 250px;
   margin-top: 30px;
   padding: 10px;
+  display: block;
 }
 .row{
   padding: 20px;
@@ -44,20 +46,20 @@ p{
 @media(min-width: 992px){
   section{
     width: calc(33.3% - 10px);
-    height: 200px;
+    height: 150px;
   }
 }
 @media(min-width: 762px) and (max-width: 991px){
   section{
     width: calc(50% - 5px);
-    height: 210px;
+    height: 150px;
   }
   section:nth-child(2){
     margin-right:0 ;
   }
   section:last-child{
     width: 100%;
-    height: 130px;
+    height: 100px;
   }
   
 }
